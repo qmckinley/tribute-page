@@ -1,28 +1,16 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
-    );
-  }
+    render() {
+        return (
+            <div className='tc'>
+                <h1>Jacque Fresco</h1>
+                <p>A Tribute To One Of The Greatest Thinkers Of Our Time</p>
+                <img alt='Jacque Fresco Art' src='https://1.bp.blogspot.com/-IfbvQQVDZ0s/WSIsRaLnueI/AAAAAAAAR8o/zP7-Qnd-p00ilfVaug-LAruMgPGA-04jACLcB/s1600/Jacque_Fresco.jpg' />
+            </div>
+        );
+    }
 }
 
 export default App;
